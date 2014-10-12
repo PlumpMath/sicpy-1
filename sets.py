@@ -117,3 +117,7 @@ def union_set(set1, set2):
     """
     set1_not_set2 = keep_if_link(lambda v: not set_contains(set2, v), set1)
     return extend_link(set1_not_set2, set2)
+
+# TODO Sets as ordered tuples
+
+
